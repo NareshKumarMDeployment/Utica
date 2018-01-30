@@ -1,0 +1,167 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 15.034420289855072,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "1654497691416532-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "1654497691416532-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 62.93746645195921,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "1654497691416532-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "1654497691416532-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 22.028113258185726,
+            "width": 59.15915915915916,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "1654497691416532-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "1654497691416532-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "1654497691416532-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "TITLE OF THE INFOGRAPHIC"
+      }
+    },
+    {
+      "id": "1654497691416532-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "feature",
+        "type": "column",
+        "labelField": "NAME",
+        "valueFields": [
+          "HHPOP_CY",
+          "MEDAGE_CY"
+        ],
+        "sortOrder": {
+          "field": "OBJECTID",
+          "isAsc": true
+        },
+        "useLayerSymbology": true,
+        "backgroundColor": "#ffffff",
+        "showLegend": false,
+        "legendTextColor": "#000000",
+        "showHorizontalAxis": true,
+        "horizontalAxisTextColor": "#000000",
+        "showVerticalAxis": true,
+        "verticalAxisTextColor": "#000000"
+      }
+    },
+    {
+      "id": "1654497691416532-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 14,
+          "textColor": "#282828"
+        },
+        "text": "Description: additional infomation about this infographic."
+      }
+    }
+  ],
+  "wid": "1654497691416532",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FROM_FRAMEWORK",
+    "name": "ESRI Demograhics",
+    "frameWorkDsId": "external~94194168986915",
+    "useSelection": false,
+    "filterByExtent": true
+  }
+}

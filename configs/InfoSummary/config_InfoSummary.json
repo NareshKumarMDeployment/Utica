@@ -1,0 +1,747 @@
+{
+  "mainPanelIcon": "",
+  "layerInfos": [
+    {
+      "layer": "InsuranceHolders_3105",
+      "label": "InsuranceHolders",
+      "refresh": false,
+      "url": "https://services8.arcgis.com/o0peHEkryuGLEU1T/arcgis/rest/services/InsuranceHolders/FeatureServer/0",
+      "id": "InsuranceHolders_3105",
+      "symbolData": {
+        "symbolType": "LayerSymbol",
+        "symbol": {
+          "color": [
+            237,
+            81,
+            81,
+            255
+          ],
+          "size": 6,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSCircle",
+          "outline": {
+            "color": null,
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSNull"
+          }
+        },
+        "clusteringEnabled": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "color": [
+            237,
+            81,
+            81,
+            255
+          ],
+          "size": 6,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSCircle",
+          "outline": {
+            "color": null,
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSNull"
+          }
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {
+            "rotationInfo": null,
+            "colorInfo": null,
+            "opacityInfo": null,
+            "uvInfo": {
+              "attributeInfo": {},
+              "isNumeric": false,
+              "idSource": null,
+              "id": null,
+              "hasExpr": false,
+              "compiledFunc": null,
+              "syntaxTree": null,
+              "isScaleDriven": false,
+              "dependsOnView": false,
+              "isJSFunc": false
+            }
+          },
+          "values": [
+            "Utica",
+            "General Insurance",
+            "Other Insurers"
+          ],
+          "_symbols": {
+            "Utica": {
+              "value": "Utica",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 237,
+                  "g": 81,
+                  "b": 81
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": null,
+                  "style": "none",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "label": "Utica"
+            },
+            "General Insurance": {
+              "value": "General Insurance",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 20,
+                  "g": 158,
+                  "b": 206
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 0,
+                    "g": 230,
+                    "b": 169,
+                    "a": 0.6078431372549019
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "label": "General Insurance"
+            },
+            "Other Insurers": {
+              "value": "Other Insurers",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 167,
+                  "g": 198,
+                  "b": 54
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 0,
+                    "g": 230,
+                    "b": 169,
+                    "a": 0.6078431372549019
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "label": "Other Insurers"
+            }
+          },
+          "infos": [
+            {
+              "value": "Utica",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 237,
+                  "g": 81,
+                  "b": 81
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": null,
+                  "style": "none",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "label": "Utica"
+            },
+            {
+              "value": "General Insurance",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 20,
+                  "g": 158,
+                  "b": 206
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 0,
+                    "g": 230,
+                    "b": 169,
+                    "a": 0.6078431372549019
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "label": "General Insurance"
+            },
+            {
+              "value": "Other Insurers",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 167,
+                  "g": 198,
+                  "b": 54
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 0,
+                    "g": 230,
+                    "b": 169,
+                    "a": 0.6078431372549019
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "label": "Other Insurers"
+            }
+          ],
+          "attributeField": "Insurance_Company",
+          "_multiple": false,
+          "_uvInfo": {},
+          "isMaxInclusive": true,
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(237, 81, 81)\" fill-opacity=\"1\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"4\" fill-rule=\"evenodd\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></circle></svg>",
+        "userDefinedSymbol": false,
+        "layerId": "InsuranceHolders_3105",
+        "selectedId": "imageGFX_0",
+        "featureDisplayOptions": {
+          "groupEnabled": false,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "Policy_type"
+            },
+            {
+              "name": "Insurance_Company",
+              "label": ""
+            },
+            {
+              "name": "Policy",
+              "label": ""
+            }
+          ],
+          "groupField": {
+            "name": "Customer_ID",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": [
+              {
+                "name": "Insurance_Company"
+              }
+            ],
+            "values": [
+              {
+                "value": " === 'Utica'",
+                "label": "Utica"
+              },
+              {
+                "value": " === 'General Insurance'",
+                "label": "General Insurance"
+              },
+              {
+                "value": " === 'Other Insurers'",
+                "label": "Other Insurers"
+              }
+            ]
+          }
+        }
+      },
+      "geometryType": "esriGeometryPoint",
+      "renderer": {
+        "_cache": {
+          "rotationInfo": null,
+          "colorInfo": null,
+          "opacityInfo": null,
+          "uvInfo": {
+            "attributeInfo": {},
+            "isNumeric": false,
+            "idSource": null,
+            "id": null,
+            "hasExpr": false,
+            "compiledFunc": null,
+            "syntaxTree": null,
+            "isScaleDriven": false,
+            "dependsOnView": false,
+            "isJSFunc": false
+          }
+        },
+        "values": [
+          "Utica",
+          "General Insurance",
+          "Other Insurers"
+        ],
+        "_symbols": {
+          "Utica": {
+            "value": "Utica",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 237,
+                "g": 81,
+                "b": 81
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": null,
+                "style": "none",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "Utica"
+          },
+          "General Insurance": {
+            "value": "General Insurance",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 20,
+                "g": 158,
+                "b": 206
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 0,
+                  "g": 230,
+                  "b": 169,
+                  "a": 0.6078431372549019
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "General Insurance"
+          },
+          "Other Insurers": {
+            "value": "Other Insurers",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 167,
+                "g": 198,
+                "b": 54
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 0,
+                  "g": 230,
+                  "b": 169,
+                  "a": 0.6078431372549019
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "Other Insurers"
+          }
+        },
+        "infos": [
+          {
+            "value": "Utica",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 237,
+                "g": 81,
+                "b": 81
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": null,
+                "style": "none",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "Utica"
+          },
+          {
+            "value": "General Insurance",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 20,
+                "g": 158,
+                "b": 206
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 0,
+                  "g": 230,
+                  "b": 169,
+                  "a": 0.6078431372549019
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "General Insurance"
+          },
+          {
+            "value": "Other Insurers",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 167,
+                "g": 198,
+                "b": 54
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 0,
+                  "g": 230,
+                  "b": 169,
+                  "a": 0.6078431372549019
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "Other Insurers"
+          }
+        ],
+        "attributeField": "Insurance_Company",
+        "_multiple": false,
+        "_uvInfo": {},
+        "isMaxInclusive": true,
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "Customer_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Customer ID",
+          "length": 256,
+          "editable": true,
+          "nullable": true,
+          "show": true
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name",
+          "length": 256,
+          "editable": true,
+          "nullable": true,
+          "show": true
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address",
+          "length": 256,
+          "editable": true,
+          "nullable": true,
+          "show": true
+        },
+        {
+          "name": "Policy_type",
+          "type": "esriFieldTypeString",
+          "alias": "Policy type",
+          "length": 256,
+          "editable": true,
+          "nullable": true,
+          "show": true
+        },
+        {
+          "name": "Insurance_Company",
+          "type": "esriFieldTypeString",
+          "alias": "Insurance Company",
+          "length": 256,
+          "editable": true,
+          "nullable": true,
+          "show": true
+        },
+        {
+          "name": "Policy",
+          "type": "esriFieldTypeString",
+          "alias": "Policy",
+          "length": 256,
+          "editable": true,
+          "nullable": true,
+          "show": true
+        },
+        {
+          "name": "Coverage",
+          "type": "esriFieldTypeString",
+          "alias": "Coverage",
+          "length": 256,
+          "editable": true,
+          "nullable": true,
+          "show": true
+        },
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "editable": false,
+          "nullable": false,
+          "show": false,
+          "_pk": true
+        }
+      ],
+      "oidFieldName": "FID",
+      "infoTemplate": {
+        "info": {
+          "title": "InsuranceHolders",
+          "fieldInfos": [
+            {
+              "fieldName": "Customer_ID",
+              "label": "Customer ID",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Name",
+              "label": "Name",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Address",
+              "label": "Address",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Policy_type",
+              "label": "Policy type",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Insurance_Company",
+              "label": "Insurance Company",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Policy",
+              "label": "Policy",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Coverage",
+              "label": "Coverage",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "FID",
+              "label": "FID",
+              "isEditable": false,
+              "tooltip": "",
+              "visible": false,
+              "stringFieldOption": "textbox"
+            }
+          ],
+          "description": null,
+          "showAttachments": true,
+          "mediaInfos": []
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "customer_id": "Customer ID",
+          "name": "Name",
+          "address": "Address",
+          "policy_type": "Policy type",
+          "insurance_company": "Insurance Company",
+          "policy": "Policy",
+          "coverage": "Coverage",
+          "fid": "FID"
+        },
+        "_fieldsMap": {
+          "customer_id": {
+            "fieldName": "Customer_ID",
+            "label": "Customer ID",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "name": {
+            "fieldName": "Name",
+            "label": "Name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "address": {
+            "fieldName": "Address",
+            "label": "Address",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "policy_type": {
+            "fieldName": "Policy_type",
+            "label": "Policy type",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "insurance_company": {
+            "fieldName": "Insurance_Company",
+            "label": "Insurance Company",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "policy": {
+            "fieldName": "Policy",
+            "label": "Policy",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "coverage": {
+            "fieldName": "Coverage",
+            "label": "Coverage",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "fid": {
+            "fieldName": "FID",
+            "label": "FID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          }
+        },
+        "titleHasRelatedFields": false
+      },
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(237, 81, 81)\" fill-opacity=\"1\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"4\" fill-rule=\"evenodd\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></circle></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(237, 81, 81)\" fill-opacity=\"1\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"4\" fill-rule=\"evenodd\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></circle></svg></div>"
+    }
+  ],
+  "mapID": "1017c683c75048ae9fc81fc309528de7",
+  "mainPanelText": "",
+  "refreshInterval": "",
+  "refreshEnabled": false,
+  "countEnabled": true,
+  "displayPanelIcon": false,
+  "hidePanel": false,
+  "continuousRefreshEnabled": false,
+  "expandList": false,
+  "showAllFeatures": false,
+  "upgradeFields": false
+}

@@ -1,0 +1,35 @@
+{
+  "distanceUnits": [
+    {
+      "unit": "KILOMETERS",
+      "abbr": "km"
+    },
+    {
+      "unit": "MILES",
+      "abbr": "mi"
+    },
+    {
+      "unit": "METERS",
+      "abbr": "m"
+    },
+    {
+      "unit": "FEET",
+      "abbr": "ft"
+    }
+  ],
+  "areaUnits": [
+    {
+      "unit": "SQUARE_KILOMETERS",
+      "abbr": "sq km"
+    },
+    {
+      "unit": "SQUARE_MILES",
+      "abbr": "sq mi"
+    },
+    {
+      "unit": "SQUARE_METERS",
+      "abbr": "sq m"
+    }
+  ],
+  "isOperationalLayer": true
+}

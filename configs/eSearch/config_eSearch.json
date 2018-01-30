@@ -1,0 +1,211 @@
+{
+  "layers": [
+    {
+      "name": "InsuranceHolders",
+      "url": "https://services8.arcgis.com/o0peHEkryuGLEU1T/arcgis/rest/services/InsuranceHolders/FeatureServer/0",
+      "definitionexpression": "",
+      "spatialsearchlayer": true,
+      "export2Csv": false,
+      "export2Geo": false,
+      "export2FC": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": true,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": []
+      },
+      "titlefield": "Policy_type",
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "Policy_type",
+            "alias": "Policy type",
+            "popuponly": true
+          },
+          {
+            "name": "Insurance_Company",
+            "alias": "Insurance Company",
+            "popuponly": true
+          },
+          {
+            "name": "Policy",
+            "alias": "Policy",
+            "popuponly": true
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "relates": {
+        "relate": []
+      },
+      "orderByFields": [],
+      "showattachments": false,
+      "hidenullvalue": true,
+      "autozoomtoresults": false,
+      "disablePopups": false,
+      "layersymbolfrom": "layer",
+      "symbology": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/Basic/BlueSphere.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 21.75,
+        "height": 21.75
+      }
+    }
+  ],
+  "bufferDefaults": {
+    "autoZoom": true,
+    "addtolegend": false,
+    "bufferUnits": {
+      "bufferUnit": [
+        {
+          "name": "UNIT_FOOT",
+          "label": "Feet"
+        },
+        {
+          "name": "UNIT_STATUTE_MILE",
+          "label": "Miles"
+        },
+        {
+          "name": "UNIT_METER",
+          "label": "Meter"
+        }
+      ]
+    },
+    "bufferDefaultValue": 5,
+    "bufferWKID": 102003,
+    "simplefillsymbol": {
+      "color": [
+        1,
+        185,
+        253,
+        128
+      ],
+      "outline": {
+        "color": [
+          1,
+          185,
+          253,
+          204
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "spatialrelationships": {
+    "spatialrelationship": [
+      {
+        "name": "esriSpatialRelContains",
+        "label": "entirely contained in"
+      },
+      {
+        "name": "esriSpatialRelIntersects",
+        "label": "intersected by"
+      },
+      {
+        "name": "esriSpatialRelEnvelopeIntersects",
+        "label": "intersected by envelope of"
+      }
+    ]
+  },
+  "graphicalsearchoptions": {
+    "enablepointselect": true,
+    "enablelineselect": true,
+    "enablepolylineselect": true,
+    "enableextentselect": true,
+    "enablecircleselect": true,
+    "enablepolyselect": true,
+    "showmultigraphicsgraphicaloption": true,
+    "showaddtolerancegraphicaloption": true,
+    "showaddsqltextgraphicaloption": true,
+    "showbuffergraphicaloption": true,
+    "buffercheckedbydefaultgraphicaloption": false,
+    "multipartgraphicsearchchecked": false,
+    "addpointtolerancechecked": false,
+    "keepgraphicalsearchenabled": true
+  },
+  "symbols": {
+    "simplemarkersymbol": null,
+    "picturemarkersymbol": {
+      "url": "images/i_search.png",
+      "height": "20",
+      "width": "20",
+      "type": "esriPMS",
+      "angle": "0"
+    },
+    "simplelinesymbol": {
+      "type": "esriSLS",
+      "style": "esriSLSSolid",
+      "color": [
+        255,
+        0,
+        0,
+        204
+      ],
+      "width": 2
+    },
+    "simplefillsymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        128
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          204
+        ],
+        "width": 2,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "resultFormat": {
+    "attTitlesymbol": {
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "color": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "attValuesymbol": {
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "color": [
+        0,
+        0,
+        0,
+        255
+      ]
+    }
+  },
+  "initialView": "text",
+  "enablePopupsOnResultClick": true,
+  "disableuvcache": false,
+  "limitsearch2mapextentchecked": false,
+  "autozoomtoresults": true,
+  "mouseovergraphics": false
+}

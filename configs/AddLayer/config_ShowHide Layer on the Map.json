@@ -1,0 +1,74 @@
+{
+  "layers": [
+    {
+      "type": "Feature",
+      "url": "https://coast.noaa.gov/arcgis/rest/services/MarineCadastre/PhysicalOceanographicAndMarineHabitat/MapServer/3",
+      "name": "NOAA Radar Stations",
+      "opacity": 0.6,
+      "visible": true,
+      "showLabels": true,
+      "autorefresh": 0,
+      "mode": "ondemand"
+    },
+    {
+      "type": "Dynamic",
+      "name": "USA Drought Condition Outlook",
+      "url": "https://earthobs1.arcgis.com/arcgis/rest/services/US_Drought_Current/MapServer",
+      "opacity": 0.6,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "",
+      "visiblelayers": "0"
+    },
+    {
+      "type": "Dynamic",
+      "name": "NWS Weather Warnings and Advisory",
+      "url": " https://livefeeds.arcgis.com/arcgis/rest/services/LiveFeeds/NWS_Watches_Warnings_and_Advisories/MapServer",
+      "opacity": 0.6,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "2,3",
+      "visiblelayers": "1,4,5,6,8,9,10,11,12"
+    },
+    {
+      "type": "Dynamic",
+      "name": "USA Spring Tornado warning map",
+      "url": " https://services.arcgis.com/V6ZHFr6zdgNZuVG0/arcgis/rest/services/Spring_Tornado_Warnings/MapServer",
+      "opacity": 0.6,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "",
+      "visiblelayers": "0"
+    },
+    {
+      "type": "Dynamic",
+      "name": "Weather Hazardous Map(Arcgis)",
+      "url": "https://idpgis.ncep.noaa.gov/arcgis/rest/services/NWS_Climate_Outlooks/cpc_weather_hazards/MapServer",
+      "opacity": 0.6,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "8",
+      "visiblelayers": "1,2,4,5,7"
+    },
+    {
+      "type": "Dynamic",
+      "name": "FEMA FIRM Map",
+      "url": " http://landscape1.arcgis.com/arcgis/rest/services/USA_Flood_Risk/MapServer",
+      "opacity": 0.6,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "",
+      "visiblelayers": "0"
+    }
+  ]
+}
