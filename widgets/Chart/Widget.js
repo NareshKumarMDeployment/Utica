@@ -426,7 +426,7 @@ define([
           this._onCbxDrawGraphicClicked();
         }
 
-        this._resetDrawBox();
+        //this._resetDrawBox();
       },
 
       _onCbxUseMapExtentClicked: function(){
@@ -460,7 +460,7 @@ define([
       _resetChartParamsPage: function(){
         this.cbxUseSpatial.checked = false;
         this._onCbxUseSpatialClicked();
-        this._resetDrawBox();
+        //this._resetDrawBox();
       },
 
       _fromChartListToChartParams: function(){
@@ -488,7 +488,7 @@ define([
       },
 
       _onBtnParamsBackClicked: function(){
-        this._resetDrawBox();
+        //this._resetDrawBox();
         html.setStyle(this.chartList, 'display', 'block');
         html.setStyle(this.chartParams, 'display', 'block');
         html.setStyle(this.chartResults, 'display', 'none');

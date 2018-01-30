@@ -89,13 +89,7 @@
                 "outline": {
                   "width": 1,
                   "color": null,
-                  "style": "none",
-                  "_inherited": {
-                    "p": 2
-                  }
-                },
-                "_inherited": {
-                  "p": 2
+                  "style": "none"
                 }
               },
               "label": "Utica"
@@ -118,13 +112,7 @@
                     "b": 169,
                     "a": 0.6078431372549019
                   },
-                  "style": "solid",
-                  "_inherited": {
-                    "p": 2
-                  }
-                },
-                "_inherited": {
-                  "p": 2
+                  "style": "solid"
                 }
               },
               "label": "General Insurance"
@@ -147,13 +135,7 @@
                     "b": 169,
                     "a": 0.6078431372549019
                   },
-                  "style": "solid",
-                  "_inherited": {
-                    "p": 2
-                  }
-                },
-                "_inherited": {
-                  "p": 2
+                  "style": "solid"
                 }
               },
               "label": "Other Insurers"
@@ -202,13 +184,7 @@
                     "b": 169,
                     "a": 0.6078431372549019
                   },
-                  "style": "solid",
-                  "_inherited": {
-                    "p": 2
-                  }
-                },
-                "_inherited": {
-                  "p": 2
+                  "style": "solid"
                 }
               },
               "label": "General Insurance"
@@ -231,13 +207,7 @@
                     "b": 169,
                     "a": 0.6078431372549019
                   },
-                  "style": "solid",
-                  "_inherited": {
-                    "p": 2
-                  }
-                },
-                "_inherited": {
-                  "p": 2
+                  "style": "solid"
                 }
               },
               "label": "Other Insurers"
@@ -266,6 +236,14 @@
             {
               "name": "Policy_type",
               "label": "Type"
+            },
+            {
+              "name": "Insurance_Company",
+              "label": ""
+            },
+            {
+              "name": "Policy",
+              "label": ""
             }
           ],
           "groupField": {
@@ -333,13 +311,7 @@
               "outline": {
                 "width": 1,
                 "color": null,
-                "style": "none",
-                "_inherited": {
-                  "p": 2
-                }
-              },
-              "_inherited": {
-                "p": 2
+                "style": "none"
               }
             },
             "label": "Utica"
@@ -362,13 +334,7 @@
                   "b": 169,
                   "a": 0.6078431372549019
                 },
-                "style": "solid",
-                "_inherited": {
-                  "p": 2
-                }
-              },
-              "_inherited": {
-                "p": 2
+                "style": "solid"
               }
             },
             "label": "General Insurance"
@@ -391,13 +357,7 @@
                   "b": 169,
                   "a": 0.6078431372549019
                 },
-                "style": "solid",
-                "_inherited": {
-                  "p": 2
-                }
-              },
-              "_inherited": {
-                "p": 2
+                "style": "solid"
               }
             },
             "label": "Other Insurers"
@@ -446,13 +406,7 @@
                   "b": 169,
                   "a": 0.6078431372549019
                 },
-                "style": "solid",
-                "_inherited": {
-                  "p": 2
-                }
-              },
-              "_inherited": {
-                "p": 2
+                "style": "solid"
               }
             },
             "label": "General Insurance"
@@ -475,13 +429,7 @@
                   "b": 169,
                   "a": 0.6078431372549019
                 },
-                "style": "solid",
-                "_inherited": {
-                  "p": 2
-                }
-              },
-              "_inherited": {
-                "p": 2
+                "style": "solid"
               }
             },
             "label": "Other Insurers"
@@ -502,8 +450,7 @@
           "alias": "Customer ID",
           "length": 256,
           "editable": true,
-          "nullable": true,
-          "show": true
+          "nullable": true
         },
         {
           "name": "Name",
@@ -511,8 +458,7 @@
           "alias": "Name",
           "length": 256,
           "editable": true,
-          "nullable": true,
-          "show": true
+          "nullable": true
         },
         {
           "name": "Address",
@@ -520,8 +466,7 @@
           "alias": "Address",
           "length": 256,
           "editable": true,
-          "nullable": true,
-          "show": true
+          "nullable": true
         },
         {
           "name": "Policy_type",
@@ -529,8 +474,7 @@
           "alias": "Policy type",
           "length": 256,
           "editable": true,
-          "nullable": true,
-          "show": true
+          "nullable": true
         },
         {
           "name": "Insurance_Company",
@@ -538,8 +482,7 @@
           "alias": "Insurance Company",
           "length": 256,
           "editable": true,
-          "nullable": true,
-          "show": true
+          "nullable": true
         },
         {
           "name": "Policy",
@@ -547,8 +490,7 @@
           "alias": "Policy",
           "length": 256,
           "editable": true,
-          "nullable": true,
-          "show": true
+          "nullable": true
         },
         {
           "name": "Coverage",
@@ -556,17 +498,22 @@
           "alias": "Coverage",
           "length": 256,
           "editable": true,
-          "nullable": true,
-          "show": true
+          "nullable": true
         },
         {
           "name": "FID",
           "type": "esriFieldTypeOID",
           "alias": "FID",
           "editable": false,
-          "nullable": false,
-          "show": false,
-          "_pk": true
+          "nullable": false
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID",
+          "length": 38,
+          "editable": false,
+          "nullable": false
         }
       ],
       "oidFieldName": "FID",

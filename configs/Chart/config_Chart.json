@@ -7,7 +7,7 @@
         "parts": [],
         "expr": "1=1"
       },
-      "description": "Policy Type",
+      "description": "Insurance Company",
       "symbol": {
         "angle": 0,
         "xoffset": 0,
@@ -21,7 +21,7 @@
       },
       "webMapLayerId": null,
       "mode": "count",
-      "name": "InsuranceHolders",
+      "name": "Company Wise",
       "highLightColor": "#ff0000",
       "types": [
         {
@@ -2212,7 +2212,7 @@
         "parts": [],
         "expr": "1=1"
       },
-      "description": "",
+      "description": "Policy type",
       "symbol": {
         "color": [
           0,
@@ -2241,7 +2241,7 @@
       },
       "webMapLayerId": "InsuranceHolders_3105",
       "mode": "count",
-      "name": "InsuranceHolders",
+      "name": "Policy Type",
       "highLightColor": "#ff0000",
       "types": [
         {

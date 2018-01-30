@@ -69,6 +69,18 @@
       "disableclientcaching": false,
       "hidelayers": "",
       "visiblelayers": "0"
+    },
+    {
+      "type": "Dynamic",
+      "name": "Earth Quake Risk Map",
+      "url": "https://landscape1.arcgis.com/arcgis/rest/services/USA_Earthquake_Risk/MapServer",
+      "opacity": 0.6,
+      "visible": true,
+      "imageformat": "png8",
+      "imagedpi": 96,
+      "disableclientcaching": false,
+      "hidelayers": "",
+      "visiblelayers": "0"
     }
   ]
 }

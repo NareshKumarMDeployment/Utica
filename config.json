@@ -117,7 +117,8 @@
         "version": "2.6",
         "closeable": true,
         "uri": "widgets/Infographic/Widget",
-        "config": "configs/Infographic/config_Infographic.json"
+        "config": "configs/Infographic/config_ESRI Infographic.json",
+        "label": "ESRI Infographic"
       },
       {
         "position": {
@@ -128,11 +129,11 @@
         "placeholderIndex": 1,
         "id": "_48",
         "name": "Infographic",
-        "label": "Infographic_2",
+        "label": "Insurance Inforgraphic",
         "version": "2.6",
         "closeable": true,
         "uri": "widgets/Infographic/Widget",
-        "config": "configs/Infographic/config_Infographic_2.json"
+        "config": "configs/Infographic/config_Insurance Inforgraphic.json"
       },
       {
         "position": {
@@ -555,7 +556,7 @@
   "httpProxy": {
     "useProxy": true,
     "alwaysUseProxy": false,
-    "url": "https://desktop-vlr4tns/MyWABApp1/",
+    "url": "",
     "rules": []
   },
   "dataSource": {
@@ -19242,7 +19243,7 @@
     "isWebTier": false,
     "httpProxy": {
       "useProxy": true,
-      "url": "https://desktop-vlr4tns/MyWABApp1/"
+      "url": "https://triconsg:3344/proxy.js"
     },
     "dataSource": {
       "dataSources": {},
