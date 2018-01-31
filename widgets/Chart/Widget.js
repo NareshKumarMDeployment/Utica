@@ -73,7 +73,7 @@ define([
         this.nls.monochromatic = this.nls.monochromatic || "Monochromatic";
         this.nls.clearResults = window.jimuNls.drawBox.clear;
         this.layerInfosObj = LayerInfos.getInstanceSync();
-      //  console.log(this.layerinfosobj);
+        console.log("postMixInProperties");
         if(this.config){
           this._setUrlForConfig();
           this._updateConfig();
@@ -122,6 +122,7 @@ define([
         jimuUtils.combineRadioCheckBoxWithLabel(this.cbxDrawGraphic, this.labelDrawGraphic);
         this._initDrawBox();
         this._initPreview();
+        console.log("postcreate");
         // this._resetAndAddTempResultLayer();
         this._initSelf();
       },
@@ -139,6 +140,7 @@ define([
 
       onDeActive: function(){
         //deactivate method of DrawBox dijit will call this.map.setInfoWindowOnClick(true) inside
+        console.log("deactivate");
         this.drawBox.deactivate();
       },
 
@@ -149,7 +151,7 @@ define([
           
         }
         this._hideInfoWindow();
-        this.drawBox.clear();
+        //  this.drawBox.clear();
         // this.preview.onClose();
         this.inherited(arguments);
       },

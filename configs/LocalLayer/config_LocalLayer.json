@@ -2,6 +2,16 @@
   "layers": {
     "layer": [
       {
+        "type": "Image",
+        "name": "Wild Fire Potential",
+        "url": "https://landscape3.arcgis.com/arcgis/rest/services/USA_Fire_Potential/ImageServer",
+        "opacity": 0.6,
+        "visible": true,
+        "hideInLegend": false,
+        "minScale": "",
+        "maxScale": ""
+      },
+      {
         "type": "Feature",
         "fltype": "Feature Layer",
         "url": "https://demographics6.arcgis.com/arcgis/rest/services/USA_Demographics_and_Boundaries_2016/MapServer/4",
@@ -47,5 +57,5 @@
       }
     ]
   },
-  "review": false
+  "review": true
 }
