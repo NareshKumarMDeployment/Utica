@@ -1,13 +1,13 @@
 {
   "charts": [
     {
-      "url": "https://services8.arcgis.com/o0peHEkryuGLEU1T/arcgis/rest/services/InsuranceHolders/FeatureServer/0",
+      "url": "",
       "filter": {
         "logicalOperator": "AND",
         "parts": [],
         "expr": "1=1"
       },
-      "description": "Insurance Company",
+      "description": "",
       "symbol": {
         "angle": 0,
         "xoffset": 0,
@@ -19,9 +19,9 @@
         "width": 18,
         "height": 18
       },
-      "webMapLayerId": null,
+      "webMapLayerId": "InsuranceListnew_9755",
       "mode": "count",
-      "name": "Company Wise",
+      "name": "Company",
       "highLightColor": "#ff0000",
       "types": [
         {
@@ -2212,7 +2212,7 @@
         "parts": [],
         "expr": "1=1"
       },
-      "description": "Policy type",
+      "description": "",
       "symbol": {
         "color": [
           0,
@@ -2239,9 +2239,9 @@
           "marker": null
         }
       },
-      "webMapLayerId": "InsuranceHolders_3105",
+      "webMapLayerId": "InsuranceListnew_9755",
       "mode": "count",
-      "name": "Policy Type",
+      "name": "policy Type",
       "highLightColor": "#ff0000",
       "types": [
         {

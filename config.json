@@ -302,12 +302,13 @@
         "version": "2.5",
         "icon": "configs\\LocalLayer\\icon_LocalLayer.png",
         "uri": "widgets/LocalLayer/Widget",
-        "config": "configs/LocalLayer/config_LocalLayer.json",
+        "config": "configs/LocalLayer/config_Add ESRI Layer.json",
         "index": 5,
         "id": "widgets_LocalLayer_Widget_40",
         "position": {
           "relativeTo": "map"
-        }
+        },
+        "label": "Add ESRI Layer"
       },
       {
         "name": "AddData",
@@ -17628,7 +17629,125 @@
       "widget~widgets_eSearch_Widget_60~0": {
         "id": "widget~widgets_eSearch_Widget_60~0",
         "type": "Features",
-        "label": "InsuranceHolders",
+        "label": "InsuranceUAutoSearch",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "Customer_ID",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "Customer ID",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 256,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Name",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "Name",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 256,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Address",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "Address",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 256,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Policy_type",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "Policy type",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 256,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Insurance_Company",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "Insurance Company",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 256,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Policy",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "Policy",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 256,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Coverage",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "Coverage",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 256,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "FID",
+              "type": "esriFieldTypeOID",
+              "actualType": "int",
+              "alias": "FID",
+              "sqlType": "sqlTypeInteger",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            }
+          ],
+          "displayField": "",
+          "objectIdField": {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "actualType": "int",
+            "alias": "FID",
+            "sqlType": "sqlTypeInteger",
+            "nullable": false,
+            "editable": false,
+            "domain": null,
+            "defaultValue": null
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~widgets_eSearch_Widget_60~1": {
+        "id": "widget~widgets_eSearch_Widget_60~1",
+        "type": "Features",
+        "label": "InsuranceUHomeSearch",
         "dataSchema": {
           "geometryType": "esriGeometryPoint",
           "fields": [

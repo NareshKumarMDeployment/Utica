@@ -2,18 +2,18 @@
   "mainPanelIcon": "",
   "layerInfos": [
     {
-      "layer": "InsuranceHolders_3105",
-      "label": "Policy Holders",
+      "layer": "InsuranceListnew_9755",
+      "label": "InsuranceHolders",
       "refresh": false,
-      "url": "https://services8.arcgis.com/o0peHEkryuGLEU1T/arcgis/rest/services/InsuranceHolders/FeatureServer/0",
-      "id": "InsuranceHolders_3105",
+      "url": "https://services8.arcgis.com/o0peHEkryuGLEU1T/arcgis/rest/services/InsuranceListnew/FeatureServer/0",
+      "id": "InsuranceListnew_9755",
       "symbolData": {
         "symbolType": "LayerSymbol",
         "symbol": {
           "color": [
-            237,
-            81,
-            81,
+            0,
+            92,
+            230,
             255
           ],
           "size": 6,
@@ -23,19 +23,24 @@
           "type": "esriSMS",
           "style": "esriSMSCircle",
           "outline": {
-            "color": null,
+            "color": [
+              153,
+              153,
+              153,
+              255
+            ],
             "width": 0.75,
             "type": "esriSLS",
-            "style": "esriSLSNull"
+            "style": "esriSLSSolid"
           }
         },
         "clusteringEnabled": false,
         "_highLightColor": "#ffffff",
         "icon": {
           "color": [
-            237,
-            81,
-            81,
+            0,
+            92,
+            230,
             255
           ],
           "size": 6,
@@ -45,10 +50,15 @@
           "type": "esriSMS",
           "style": "esriSMSCircle",
           "outline": {
-            "color": null,
+            "color": [
+              153,
+              153,
+              153,
+              255
+            ],
             "width": 0.75,
             "type": "esriSLS",
-            "style": "esriSLSNull"
+            "style": "esriSLSSolid"
           }
         },
         "iconType": "LayerIcon",
@@ -81,15 +91,19 @@
               "symbol": {
                 "style": "circle",
                 "color": {
-                  "r": 237,
-                  "g": 81,
-                  "b": 81
+                  "r": 0,
+                  "g": 92,
+                  "b": 230
                 },
                 "size": 8,
                 "outline": {
                   "width": 1,
-                  "color": null,
-                  "style": "none"
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153
+                  },
+                  "style": "solid"
                 }
               },
               "label": "Utica"
@@ -99,18 +113,17 @@
               "symbol": {
                 "style": "circle",
                 "color": {
-                  "r": 20,
-                  "g": 158,
-                  "b": 206
+                  "r": 71,
+                  "g": 71,
+                  "b": 71
                 },
                 "size": 8,
                 "outline": {
                   "width": 1,
                   "color": {
-                    "r": 0,
-                    "g": 230,
-                    "b": 169,
-                    "a": 0.6078431372549019
+                    "r": 153,
+                    "g": 153,
+                    "b": 153
                   },
                   "style": "solid"
                 }
@@ -121,19 +134,14 @@
               "value": "Other Insurers",
               "symbol": {
                 "style": "circle",
-                "color": {
-                  "r": 167,
-                  "g": 198,
-                  "b": 54
-                },
+                "color": {},
                 "size": 8,
                 "outline": {
                   "width": 1,
                   "color": {
-                    "r": 0,
-                    "g": 230,
-                    "b": 169,
-                    "a": 0.6078431372549019
+                    "r": 153,
+                    "g": 153,
+                    "b": 153
                   },
                   "style": "solid"
                 }
@@ -147,15 +155,19 @@
               "symbol": {
                 "style": "circle",
                 "color": {
-                  "r": 237,
-                  "g": 81,
-                  "b": 81
+                  "r": 0,
+                  "g": 92,
+                  "b": 230
                 },
                 "size": 8,
                 "outline": {
                   "width": 1,
-                  "color": null,
-                  "style": "none",
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153
+                  },
+                  "style": "solid",
                   "_inherited": {
                     "p": 2
                   }
@@ -171,18 +183,17 @@
               "symbol": {
                 "style": "circle",
                 "color": {
-                  "r": 20,
-                  "g": 158,
-                  "b": 206
+                  "r": 71,
+                  "g": 71,
+                  "b": 71
                 },
                 "size": 8,
                 "outline": {
                   "width": 1,
                   "color": {
-                    "r": 0,
-                    "g": 230,
-                    "b": 169,
-                    "a": 0.6078431372549019
+                    "r": 153,
+                    "g": 153,
+                    "b": 153
                   },
                   "style": "solid"
                 }
@@ -193,19 +204,14 @@
               "value": "Other Insurers",
               "symbol": {
                 "style": "circle",
-                "color": {
-                  "r": 167,
-                  "g": 198,
-                  "b": 54
-                },
+                "color": {},
                 "size": 8,
                 "outline": {
                   "width": 1,
                   "color": {
-                    "r": 0,
-                    "g": 230,
-                    "b": 169,
-                    "a": 0.6078431372549019
+                    "r": 153,
+                    "g": 153,
+                    "b": 153
                   },
                   "style": "solid"
                 }
@@ -223,9 +229,9 @@
         },
         "s": "",
         "svg": {},
-        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(237, 81, 81)\" fill-opacity=\"1\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"4\" fill-rule=\"evenodd\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></circle></svg>",
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(0, 92, 230)\" fill-opacity=\"1\" stroke=\"rgb(153, 153, 153)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"4\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></circle></svg>",
         "userDefinedSymbol": false,
-        "layerId": "InsuranceHolders_3105",
+        "layerId": "InsuranceListnew_9755",
         "selectedId": "imageGFX_0",
         "featureDisplayOptions": {
           "groupEnabled": true,
@@ -234,16 +240,7 @@
           "groupByField": true,
           "fields": [
             {
-              "name": "Policy_type",
-              "label": "Type"
-            },
-            {
-              "name": "Insurance_Company",
-              "label": ""
-            },
-            {
-              "name": "Policy",
-              "label": ""
+              "name": "Policy_type"
             }
           ],
           "groupField": {
@@ -303,15 +300,19 @@
             "symbol": {
               "style": "circle",
               "color": {
-                "r": 237,
-                "g": 81,
-                "b": 81
+                "r": 0,
+                "g": 92,
+                "b": 230
               },
               "size": 8,
               "outline": {
                 "width": 1,
-                "color": null,
-                "style": "none"
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153
+                },
+                "style": "solid"
               }
             },
             "label": "Utica"
@@ -321,18 +322,17 @@
             "symbol": {
               "style": "circle",
               "color": {
-                "r": 20,
-                "g": 158,
-                "b": 206
+                "r": 71,
+                "g": 71,
+                "b": 71
               },
               "size": 8,
               "outline": {
                 "width": 1,
                 "color": {
-                  "r": 0,
-                  "g": 230,
-                  "b": 169,
-                  "a": 0.6078431372549019
+                  "r": 153,
+                  "g": 153,
+                  "b": 153
                 },
                 "style": "solid"
               }
@@ -343,19 +343,14 @@
             "value": "Other Insurers",
             "symbol": {
               "style": "circle",
-              "color": {
-                "r": 167,
-                "g": 198,
-                "b": 54
-              },
+              "color": {},
               "size": 8,
               "outline": {
                 "width": 1,
                 "color": {
-                  "r": 0,
-                  "g": 230,
-                  "b": 169,
-                  "a": 0.6078431372549019
+                  "r": 153,
+                  "g": 153,
+                  "b": 153
                 },
                 "style": "solid"
               }
@@ -369,15 +364,19 @@
             "symbol": {
               "style": "circle",
               "color": {
-                "r": 237,
-                "g": 81,
-                "b": 81
+                "r": 0,
+                "g": 92,
+                "b": 230
               },
               "size": 8,
               "outline": {
                 "width": 1,
-                "color": null,
-                "style": "none",
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153
+                },
+                "style": "solid",
                 "_inherited": {
                   "p": 2
                 }
@@ -393,18 +392,17 @@
             "symbol": {
               "style": "circle",
               "color": {
-                "r": 20,
-                "g": 158,
-                "b": 206
+                "r": 71,
+                "g": 71,
+                "b": 71
               },
               "size": 8,
               "outline": {
                 "width": 1,
                 "color": {
-                  "r": 0,
-                  "g": 230,
-                  "b": 169,
-                  "a": 0.6078431372549019
+                  "r": 153,
+                  "g": 153,
+                  "b": 153
                 },
                 "style": "solid"
               }
@@ -415,19 +413,14 @@
             "value": "Other Insurers",
             "symbol": {
               "style": "circle",
-              "color": {
-                "r": 167,
-                "g": 198,
-                "b": 54
-              },
+              "color": {},
               "size": 8,
               "outline": {
                 "width": 1,
                 "color": {
-                  "r": 0,
-                  "g": 230,
-                  "b": 169,
-                  "a": 0.6078431372549019
+                  "r": 153,
+                  "g": 153,
+                  "b": 153
                 },
                 "style": "solid"
               }
@@ -506,20 +499,12 @@
           "alias": "FID",
           "editable": false,
           "nullable": false
-        },
-        {
-          "name": "GlobalID",
-          "type": "esriFieldTypeGlobalID",
-          "alias": "GlobalID",
-          "length": 38,
-          "editable": false,
-          "nullable": false
         }
       ],
       "oidFieldName": "FID",
       "infoTemplate": {
         "info": {
-          "title": "InsuranceHolders",
+          "title": "InsuranceListnew",
           "fieldInfos": [
             {
               "fieldName": "Customer_ID",
@@ -669,8 +654,8 @@
         },
         "titleHasRelatedFields": false
       },
-      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(237, 81, 81)\" fill-opacity=\"1\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"4\" fill-rule=\"evenodd\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></circle></svg>",
-      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(237, 81, 81)\" fill-opacity=\"1\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"4\" fill-rule=\"evenodd\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></circle></svg></div>"
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(0, 92, 230)\" fill-opacity=\"1\" stroke=\"rgb(153, 153, 153)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"4\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></circle></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(0, 92, 230)\" fill-opacity=\"1\" stroke=\"rgb(153, 153, 153)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"4\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></circle></svg></div>"
     }
   ],
   "mapID": "1017c683c75048ae9fc81fc309528de7",

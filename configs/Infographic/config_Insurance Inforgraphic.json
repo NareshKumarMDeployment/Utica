@@ -110,11 +110,12 @@
       "config": {
         "mode": "count",
         "type": "column",
-        "categoryField": "Policy_type",
+        "categoryField": "Insurance_Company",
         "sortOrder": {
           "isLabelAxis": true,
           "isAsc": true
         },
+        "useLayerSymbology": false,
         "backgroundColor": "#ffffff",
         "colors": [
           "#5d9cd3"
@@ -158,8 +159,8 @@
   "dataSource": {
     "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
     "name": "InsuranceHolders",
-    "layerId": "InsuranceHolders_3105",
+    "layerId": "InsuranceListnew_9755",
     "useSelection": true,
-    "filterByExtent": true
+    "filterByExtent": false
   }
 }

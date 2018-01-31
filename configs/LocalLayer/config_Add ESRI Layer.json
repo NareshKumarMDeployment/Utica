@@ -1,0 +1,51 @@
+{
+  "layers": {
+    "layer": [
+      {
+        "type": "Feature",
+        "fltype": "Feature Layer",
+        "url": "https://demographics6.arcgis.com/arcgis/rest/services/USA_Demographics_and_Boundaries_2016/MapServer/4",
+        "name": "ESRI Demographics Block Group level information",
+        "opacity": 0.6,
+        "visible": true,
+        "showLabels": true,
+        "hideInLegend": false,
+        "trackEditByLDAP": false,
+        "limitEditByLDAP": false,
+        "popup": {
+          "title": "ESRI Demographics",
+          "fieldInfos": [
+            {
+              "fieldName": "HHPOP_CY",
+              "label": "2016 Household Population (Esri)",
+              "visible": true
+            },
+            {
+              "fieldName": "MEDAGE_CY",
+              "label": "2016 Median Age (Esri)",
+              "visible": true
+            },
+            {
+              "fieldName": "MEDHINC_CY",
+              "label": "2016 Median Household Income (Esri)",
+              "visible": true
+            }
+          ],
+          "showAttachments": false,
+          "tr": null
+        },
+        "autorefresh": 0,
+        "minScale": "",
+        "maxScale": "",
+        "labelMinScale": "",
+        "labelMaxScale": "",
+        "customLabel": "",
+        "definitionQuery": "",
+        "customRenderer": "",
+        "customLabelStyle": "",
+        "mode": "ondemand"
+      }
+    ]
+  },
+  "review": true
+}
