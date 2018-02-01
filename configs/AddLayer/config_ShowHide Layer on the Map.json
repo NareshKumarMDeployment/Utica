@@ -60,8 +60,8 @@
     },
     {
       "type": "Dynamic",
-      "name": "FEMA FIRM Map",
-      "url": " http://landscape1.arcgis.com/arcgis/rest/services/USA_Flood_Risk/MapServer",
+      "name": "Earth Quake Risk Map",
+      "url": "https://landscape1.arcgis.com/arcgis/rest/services/USA_Earthquake_Risk/MapServer",
       "opacity": 0.6,
       "visible": true,
       "imageformat": "png8",
@@ -72,8 +72,8 @@
     },
     {
       "type": "Dynamic",
-      "name": "Earth Quake Risk Map",
-      "url": "https://landscape1.arcgis.com/arcgis/rest/services/USA_Earthquake_Risk/MapServer",
+      "name": "Flood Risk",
+      "url": "https://landscape1.arcgis.com/arcgis/rest/services/USA_Flood_Risk/MapServer",
       "opacity": 0.6,
       "visible": true,
       "imageformat": "png8",

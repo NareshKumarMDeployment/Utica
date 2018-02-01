@@ -2,11 +2,11 @@
   "theme": {
     "name": "FoldableTheme",
     "styles": [
+      "blue",
       "purple",
       "cyan",
       "green",
       "red",
-      "blue",
       "yellow",
       "black",
       "default"
@@ -21,7 +21,7 @@
   "portalUrl": "https://mackbrow899.maps.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [],
-  "title": "UticaApp",
+  "title": "InsuranceApp",
   "subtitle": "with Web AppBuilder for ArcGIS",
   "keepAppState": true,
   "logo": "images/logo.png",
@@ -113,12 +113,11 @@
         },
         "placeholderIndex": 1,
         "id": "_47",
-        "name": "Infographic",
+        "name": "Print",
         "version": "2.6",
         "closeable": true,
-        "uri": "widgets/Infographic/Widget",
-        "config": "configs/Infographic/config_ESRI Infographic.json",
-        "label": "ESRI Infographic"
+        "uri": "widgets/Print/Widget",
+        "config": "configs/Print/config_Print.json"
       },
       {
         "position": {
@@ -128,12 +127,9 @@
         },
         "placeholderIndex": 1,
         "id": "_48",
-        "name": "Infographic",
-        "label": "Insurance Inforgraphic",
         "version": "2.6",
         "closeable": true,
-        "uri": "widgets/Infographic/Widget",
-        "config": "configs/Infographic/config_Insurance Inforgraphic.json"
+        "uri": ""
       },
       {
         "position": {
@@ -141,7 +137,7 @@
           "top": 262,
           "relativeTo": "map"
         },
-        "placeholderIndex": 1,
+        "placeholderIndex": 2,
         "id": "_49",
         "version": "2.6",
         "closeable": true,
