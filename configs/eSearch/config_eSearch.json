@@ -255,6 +255,183 @@
       "showattachments": false,
       "autozoomtoresults": false,
       "layersymbolfrom": "server"
+    },
+    {
+      "name": "Company",
+      "url": "https://services8.arcgis.com/o0peHEkryuGLEU1T/arcgis/rest/services/InsuranceListnew/FeatureServer/0",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "export2Csv": false,
+      "export2Geo": false,
+      "export2FC": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Companycount",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "Insurance_Company",
+                    "label": "Insurance Company",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": "Utica"
+                  },
+                  "prompt": "",
+                  "textsearchhint": "",
+                  "sqltext": "Upper(Insurance_Company) = Upper('Utica')",
+                  "operation": "stringOperatorIs",
+                  "required": true
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "Insurance_Company",
+            "alias": "Insurance Company"
+          },
+          {
+            "name": "Policy_type",
+            "alias": "Policy type"
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "relates": {
+        "relate": []
+      },
+      "orderByFields": [],
+      "showattachments": false,
+      "hidenullvalue": true,
+      "layersymbolfrom": "server"
+    },
+    {
+      "name": "ESRI Layer",
+      "url": "https://demographics6.arcgis.com/arcgis/rest/services/USA_Demographics_and_Boundaries_2016/MapServer/9",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "export2Csv": false,
+      "export2Geo": false,
+      "export2FC": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": []
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "HHPOP_CY",
+            "alias": "2016 Household Population (Esri)",
+            "sumfield": "true",
+            "sumlabel": "PopSum",
+            "numberformat": "|,|",
+            "isnumber": true
+          },
+          {
+            "name": "MEDMAGE_CY",
+            "alias": "2016 Median Male Age (Esri)",
+            "isnumber": true
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "relates": {
+        "relate": []
+      },
+      "orderByFields": [],
+      "showattachments": false,
+      "autozoomtoresults": false,
+      "disablePopups": false,
+      "layersymbolfrom": "server"
+    },
+    {
+      "name": "Policy Type",
+      "url": "https://services8.arcgis.com/o0peHEkryuGLEU1T/arcgis/rest/services/InsuranceListnew/FeatureServer/0",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "export2Csv": false,
+      "export2Geo": false,
+      "export2FC": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "CompanyCount",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "Insurance_Company",
+                    "label": "Insurance Company",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": "Utica"
+                  },
+                  "prompt": "",
+                  "textsearchhint": "",
+                  "sqltext": "Upper(Insurance_Company) = Upper('Utica')",
+                  "operation": "stringOperatorIs",
+                  "required": true
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "Policy_type",
+            "alias": "Policy type"
+          },
+          {
+            "name": "Policy",
+            "alias": "Policy"
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "relates": {
+        "relate": []
+      },
+      "orderByFields": null,
+      "showattachments": false,
+      "autozoomtoresults": false,
+      "disablePopups": false,
+      "layersymbolfrom": "server"
     }
   ],
   "bufferDefaults": {

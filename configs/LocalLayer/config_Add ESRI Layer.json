@@ -4,8 +4,8 @@
       {
         "type": "Feature",
         "fltype": "Feature Layer",
-        "url": "https://demographics6.arcgis.com/arcgis/rest/services/USA_Demographics_and_Boundaries_2016/MapServer/4",
-        "name": "ESRI Demographics Block Group level information",
+        "url": "https://demographics6.arcgis.com/arcgis/rest/services/USA_Demographics_and_Boundaries_2016/MapServer/9",
+        "name": "ESRI Demographics Zipcode level information",
         "opacity": 0.6,
         "visible": true,
         "showLabels": true,
@@ -28,6 +28,11 @@
             {
               "fieldName": "MEDHINC_CY",
               "label": "2016 Median Household Income (Esri)",
+              "visible": true
+            },
+            {
+              "fieldName": "NAME",
+              "label": "NAME",
               "visible": true
             }
           ],
