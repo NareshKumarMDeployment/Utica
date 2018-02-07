@@ -1,0 +1,208 @@
+{
+  "hideLayersAfterWidgetClosed": true,
+  "labelTasks": "",
+  "labelResults": "",
+  "queries": [
+    {
+      "url": "",
+      "name": "InsuranceHolders",
+      "icon": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Insurance_Company",
+              "label": "Insurance_Company",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Utica"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "expr": "Insurance_Company = 'Utica'"
+          },
+          {
+            "fieldObj": {
+              "name": "Policy_type",
+              "label": "Policy_type",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Auto"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "expr": "Policy_type = 'Auto'"
+          }
+        ],
+        "expr": "(Insurance_Company = 'Utica') AND (Policy_type = 'Auto')"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": {
+          "default": true
+        },
+        "drawing": {
+          "default": false,
+          "geometryTypes": [
+            "POINT",
+            "POLYLINE",
+            "EXTENT",
+            "CIRCLE"
+          ],
+          "buffer": null
+        },
+        "useFeatures": {
+          "default": false,
+          "relationships": [
+            {
+              "relationship": "SPATIAL_REL_INTERSECTS",
+              "label": "intersect"
+            },
+            {
+              "relationship": "SPATIAL_REL_TOUCHES",
+              "label": "touch"
+            },
+            {
+              "relationship": "SPATIAL_REL_CONTAINS",
+              "label": "within"
+            }
+          ],
+          "buffer": null
+        },
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid",
+          "marker": null
+        }
+      },
+      "canModifySymbol": true,
+      "keepResultsOnMapAfterCloseWidget": true,
+      "enableExport": false,
+      "singleResultLayer": true,
+      "webMapLayerId": "InsuranceListnew_9755"
+    },
+    {
+      "url": "https://demographics7.arcgis.com/arcgis/rest/services/USA_Demographics_and_Boundaries_2017/MapServer/9",
+      "name": "Block Group",
+      "icon": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TOTPOP_CY",
+              "label": "TOTPOP_CY",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsGreaterThan",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": 0
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "expr": "TOTPOP_CY > 0"
+          }
+        ],
+        "expr": "TOTPOP_CY > 0"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": {
+          "default": true,
+          "geometryTypes": [
+            "POINT",
+            "POLYLINE",
+            "EXTENT",
+            "CIRCLE"
+          ],
+          "buffer": null
+        },
+        "useFeatures": {
+          "default": false,
+          "relationships": [
+            {
+              "relationship": "SPATIAL_REL_INTERSECTS",
+              "label": "intersect"
+            }
+          ],
+          "buffer": null
+        },
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid",
+          "marker": null
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": false,
+      "keepResultsOnMapAfterCloseWidget": true,
+      "enableExport": false,
+      "singleResultLayer": true,
+      "webMapLayerId": "USA_Demographics_and_Boundaries_2017_3760_9"
+    }
+  ]
+}

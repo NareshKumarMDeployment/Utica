@@ -283,12 +283,13 @@
                     "type": "esriFieldTypeString"
                   },
                   "valueObj": {
-                    "value": "Utica"
+                    "value": "General Insurance"
                   },
-                  "prompt": "",
-                  "textsearchhint": "",
-                  "sqltext": "Upper(Insurance_Company) = Upper('Utica')",
+                  "prompt": "Insurance Company is",
+                  "textsearchhint": "Select",
+                  "sqltext": "Insurance_Company = '[value]'",
                   "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "Insurance_Company",
                   "required": true
                 }
               ]
@@ -296,7 +297,7 @@
           }
         ]
       },
-      "titlefield": null,
+      "titlefield": "Insurance_Company",
       "fields": {
         "all": false,
         "field": [
@@ -319,6 +320,7 @@
       "orderByFields": [],
       "showattachments": false,
       "hidenullvalue": true,
+      "disablePopups": true,
       "layersymbolfrom": "server"
     },
     {
@@ -431,6 +433,47 @@
       "showattachments": false,
       "autozoomtoresults": false,
       "disablePopups": false,
+      "layersymbolfrom": "server"
+    },
+    {
+      "name": "ESRI Market Potential Layer",
+      "url": "https://demographics7.arcgis.com/arcgis/rest/services/USA_MPI_1_2017/MapServer/9",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "export2Csv": false,
+      "export2Geo": false,
+      "export2FC": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": []
+      },
+      "titlefield": "MP18010a_B",
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "MP18010a_B",
+            "alias": "2017 Have auto insurance: uninsured motorist",
+            "sumfield": "true",
+            "sumlabel": "Sum of Uninsured :Auto Insurance",
+            "numberformat": "|,|",
+            "isnumber": true,
+            "popuponly": true
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "relates": {
+        "relate": []
+      },
+      "orderByFields": [],
+      "showattachments": false,
+      "autozoomtoresults": false,
       "layersymbolfrom": "server"
     }
   ],

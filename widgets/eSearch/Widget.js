@@ -369,6 +369,7 @@ define([
 
       _onBtnMenuClicked: function(evt){
         var position = html.position(evt.target || evt.srcElement);
+        console.log("before clear....");
         this._setPopupMenuItems().then(this.popupMenu.show(position));
       },
 
@@ -2034,6 +2035,7 @@ define([
           this.drawBox.deactivateAfterDrawing = false;
         }
         this.own(on(this.drawBox, 'IconSelected', lang.hitch(this, function (tool, geotype, commontype) {
+        	console.log("drawing clicked");
           if (this.lastDrawCommonType && this.lastDrawCommonType !== commontype && this.garr.length > 0) {
             var qMessage = new Message({
               type: 'question',
@@ -2062,6 +2064,8 @@ define([
           }
         })));
         this.own(on(this.drawBox, 'DrawEnd', lang.hitch(this, function (graphic) {
+        	//this.drawBox.clear();
+        	console.log("drawing end");
           if (!this.cbxMultiGraphic.getValue()) {
             if (graphic.geometry.type === "point" && this.cbxAddTolerance.getValue()) {
               var ext = this.pointToExtent(graphic.geometry, this.pointSearchTolerance);
@@ -2611,11 +2615,15 @@ define([
         if (closeAtt) {
           if (this.list.items.length > 0 && this.isSelTabVisible()) {
             this.tabContainer.selectTab(this.selTab);
+            console.log('tab===', this.selTab);
+            if(this.selTab === 'By Shape'){
+            	this.drawBox.clear();
+            }
           }
         }
         this.list.clear();
         html.empty(this.divResultMessage);
-        this.drawBox.clear();
+        //this.drawBox.clear();
         this.garr = [];
         this.lastDrawCommonType = null;
         this.lastDrawTool = null;
