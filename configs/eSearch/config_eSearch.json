@@ -1,263 +1,7 @@
 {
   "layers": [
     {
-      "name": "InsuranceUAutoSearch",
-      "url": "https://services8.arcgis.com/o0peHEkryuGLEU1T/arcgis/rest/services/InsuranceListnew/FeatureServer/0",
-      "definitionexpression": "",
-      "spatialsearchlayer": true,
-      "export2Csv": false,
-      "export2Geo": false,
-      "export2FC": false,
-      "zoomScale": 10000,
-      "forceZoomScale": false,
-      "shareResult": true,
-      "addToAttrib": false,
-      "expressions": {
-        "expression": [
-          {
-            "alias": "PolicytypeExpr",
-            "textsearchlabel": "",
-            "values": {
-              "value": [
-                {
-                  "fieldObj": {
-                    "name": "Insurance_Company",
-                    "label": "Insurance Company",
-                    "shortType": "string",
-                    "type": "esriFieldTypeString"
-                  },
-                  "valueObj": {
-                    "value": "Utica"
-                  },
-                  "prompt": "",
-                  "textsearchhint": "Enter Insurance Company",
-                  "sqltext": "Upper(Insurance_Company) = Upper('Utica')",
-                  "operation": "stringOperatorIs",
-                  "required": true
-                },
-                {
-                  "fieldObj": {
-                    "name": "Policy_type",
-                    "label": "Policy type",
-                    "shortType": "string",
-                    "type": "esriFieldTypeString"
-                  },
-                  "valueObj": {
-                    "value": "Auto"
-                  },
-                  "prompt": "",
-                  "textsearchhint": "",
-                  "sqltext": "Upper(Policy_type) = Upper('Auto')",
-                  "operation": "stringOperatorIs",
-                  "operator": "AND",
-                  "required": true
-                }
-              ]
-            }
-          },
-          {
-            "alias": "Autosearch",
-            "textsearchlabel": "",
-            "values": {
-              "value": [
-                {
-                  "fieldObj": {
-                    "name": "Insurance_Company",
-                    "label": "Insurance Company",
-                    "shortType": "string",
-                    "type": "esriFieldTypeString"
-                  },
-                  "valueObj": {
-                    "value": "Utica"
-                  },
-                  "prompt": "",
-                  "textsearchhint": "",
-                  "sqltext": "Upper(Insurance_Company) = Upper('Utica')",
-                  "operation": "stringOperatorIs",
-                  "required": true
-                },
-                {
-                  "fieldObj": {
-                    "name": "Policy_type",
-                    "label": "Policy type",
-                    "shortType": "string",
-                    "type": "esriFieldTypeString"
-                  },
-                  "valueObj": {
-                    "value": "Auto"
-                  },
-                  "prompt": "",
-                  "textsearchhint": "",
-                  "sqltext": "Upper(Policy_type) = Upper('Auto')",
-                  "operation": "stringOperatorIs",
-                  "operator": "AND",
-                  "required": true
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "titlefield": null,
-      "fields": {
-        "all": false,
-        "field": [
-          {
-            "name": "Insurance_Company",
-            "alias": "Insurance Company"
-          },
-          {
-            "name": "Policy",
-            "alias": "Policy"
-          },
-          {
-            "name": "Coverage",
-            "alias": "Coverage"
-          }
-        ]
-      },
-      "links": {
-        "link": []
-      },
-      "relates": {
-        "relate": []
-      },
-      "orderByFields": [],
-      "showattachments": false,
-      "hidenullvalue": true,
-      "autozoomtoresults": false,
-      "disablePopups": true,
-      "layersymbolfrom": "config"
-    },
-    {
-      "name": "InsuranceUHomeSearch",
-      "url": "https://services8.arcgis.com/o0peHEkryuGLEU1T/arcgis/rest/services/InsuranceListnew/FeatureServer/0",
-      "definitionexpression": "",
-      "spatialsearchlayer": false,
-      "export2Csv": false,
-      "export2Geo": false,
-      "export2FC": false,
-      "zoomScale": 10000,
-      "forceZoomScale": false,
-      "shareResult": true,
-      "addToAttrib": false,
-      "expressions": {
-        "expression": [
-          {
-            "alias": "UticaHome",
-            "textsearchlabel": "",
-            "values": {
-              "value": [
-                {
-                  "fieldObj": {
-                    "name": "Insurance_Company",
-                    "label": "Insurance Company",
-                    "shortType": "string",
-                    "type": "esriFieldTypeString"
-                  },
-                  "valueObj": {
-                    "value": "Utica"
-                  },
-                  "prompt": "",
-                  "textsearchhint": "",
-                  "sqltext": "Upper(Insurance_Company) = Upper('Utica')",
-                  "operation": "stringOperatorIs",
-                  "required": true
-                },
-                {
-                  "fieldObj": {
-                    "name": "Policy_type",
-                    "label": "Policy type",
-                    "shortType": "string",
-                    "type": "esriFieldTypeString"
-                  },
-                  "valueObj": {
-                    "value": "Home"
-                  },
-                  "prompt": "",
-                  "textsearchhint": "",
-                  "sqltext": "Upper(Policy_type) = Upper('Home')",
-                  "operation": "stringOperatorIs",
-                  "operator": "AND",
-                  "required": true
-                }
-              ]
-            }
-          },
-          {
-            "alias": "Home search",
-            "textsearchlabel": "",
-            "values": {
-              "value": [
-                {
-                  "fieldObj": {
-                    "name": "Insurance_Company",
-                    "label": "Insurance Company",
-                    "shortType": "string",
-                    "type": "esriFieldTypeString"
-                  },
-                  "valueObj": {
-                    "value": "Utica"
-                  },
-                  "prompt": "",
-                  "textsearchhint": "",
-                  "sqltext": "Upper(Insurance_Company) = Upper('Utica')",
-                  "operation": "stringOperatorIs",
-                  "required": true
-                },
-                {
-                  "fieldObj": {
-                    "name": "Policy_type",
-                    "label": "Policy type",
-                    "shortType": "string",
-                    "type": "esriFieldTypeString"
-                  },
-                  "valueObj": {
-                    "value": "Home"
-                  },
-                  "prompt": "",
-                  "textsearchhint": "",
-                  "sqltext": "Upper(Policy_type) = Upper('Home')",
-                  "operation": "stringOperatorIs",
-                  "operator": "AND",
-                  "required": true
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "titlefield": null,
-      "fields": {
-        "all": false,
-        "field": [
-          {
-            "name": "Policy_type",
-            "alias": "Policy type"
-          },
-          {
-            "name": "Insurance_Company",
-            "alias": "Insurance Company"
-          },
-          {
-            "name": "Policy",
-            "alias": "Policy"
-          }
-        ]
-      },
-      "links": {
-        "link": []
-      },
-      "relates": {
-        "relate": []
-      },
-      "orderByFields": [],
-      "showattachments": false,
-      "autozoomtoresults": false,
-      "layersymbolfrom": "server"
-    },
-    {
-      "name": "Company",
+      "name": "Search",
       "url": "https://services8.arcgis.com/o0peHEkryuGLEU1T/arcgis/rest/services/InsuranceListnew/FeatureServer/0",
       "definitionexpression": "",
       "spatialsearchlayer": false,
@@ -271,7 +15,7 @@
       "expressions": {
         "expression": [
           {
-            "alias": "Companycount",
+            "alias": "All Search",
             "textsearchlabel": "",
             "values": {
               "value": [
@@ -283,13 +27,31 @@
                     "type": "esriFieldTypeString"
                   },
                   "valueObj": {
-                    "value": "General Insurance"
+                    "value": "allu"
                   },
                   "prompt": "Insurance Company is",
                   "textsearchhint": "Select",
                   "sqltext": "Insurance_Company = '[value]'",
                   "operation": "stringOperatorIs",
                   "uniquevalsfromfield": "Insurance_Company",
+                  "required": true
+                },
+                {
+                  "fieldObj": {
+                    "name": "Policy_type",
+                    "label": "Policy type",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": "Auto"
+                  },
+                  "prompt": "Policy type is",
+                  "textsearchhint": "Select",
+                  "sqltext": "Policy_type = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "Policy_type",
+                  "operator": "AND",
                   "required": true
                 }
               ]
@@ -308,6 +70,10 @@
           {
             "name": "Policy_type",
             "alias": "Policy type"
+          },
+          {
+            "name": "Policy",
+            "alias": "Policy"
           }
         ]
       },
@@ -370,74 +136,8 @@
       "layersymbolfrom": "server"
     },
     {
-      "name": "Policy Type",
-      "url": "https://services8.arcgis.com/o0peHEkryuGLEU1T/arcgis/rest/services/InsuranceListnew/FeatureServer/0",
-      "definitionexpression": "",
-      "spatialsearchlayer": false,
-      "export2Csv": false,
-      "export2Geo": false,
-      "export2FC": false,
-      "zoomScale": 10000,
-      "forceZoomScale": false,
-      "shareResult": false,
-      "addToAttrib": false,
-      "expressions": {
-        "expression": [
-          {
-            "alias": "CompanyCount",
-            "textsearchlabel": "",
-            "values": {
-              "value": [
-                {
-                  "fieldObj": {
-                    "name": "Insurance_Company",
-                    "label": "Insurance Company",
-                    "shortType": "string",
-                    "type": "esriFieldTypeString"
-                  },
-                  "valueObj": {
-                    "value": "Utica"
-                  },
-                  "prompt": "",
-                  "textsearchhint": "",
-                  "sqltext": "Upper(Insurance_Company) = Upper('Utica')",
-                  "operation": "stringOperatorIs",
-                  "required": true
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "titlefield": null,
-      "fields": {
-        "all": false,
-        "field": [
-          {
-            "name": "Policy_type",
-            "alias": "Policy type"
-          },
-          {
-            "name": "Policy",
-            "alias": "Policy"
-          }
-        ]
-      },
-      "links": {
-        "link": []
-      },
-      "relates": {
-        "relate": []
-      },
-      "orderByFields": null,
-      "showattachments": false,
-      "autozoomtoresults": false,
-      "disablePopups": false,
-      "layersymbolfrom": "server"
-    },
-    {
-      "name": "ESRI Market Potential Layer",
-      "url": "https://demographics7.arcgis.com/arcgis/rest/services/USA_MPI_1_2017/MapServer/9",
+      "name": "ESRI Market Potential Layer(Uninsured Auto Motorist)",
+      "url": "https://demographics7.arcgis.com/arcgis/rest/services/USA_MPI_1_2017/MapServer/10",
       "definitionexpression": "",
       "spatialsearchlayer": false,
       "export2Csv": false,
@@ -458,7 +158,7 @@
             "name": "MP18010a_B",
             "alias": "2017 Have auto insurance: uninsured motorist",
             "sumfield": "true",
-            "sumlabel": "Sum of Uninsured :Auto Insurance",
+            "sumlabel": "Sum of Uninsured Motorist :Auto Insurance",
             "numberformat": "|,|",
             "isnumber": true,
             "popuponly": true
@@ -473,7 +173,7 @@
       },
       "orderByFields": [],
       "showattachments": false,
-      "autozoomtoresults": false,
+      "hidenullvalue": true,
       "layersymbolfrom": "server"
     }
   ],

@@ -125,7 +125,7 @@ function(declare, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, on, Eve
     },
 
     reset: function(resetSearchDistance){
-      this.drawBox.reset();
+      //this.drawBox.reset();
       this.clearAllGraphics();
       if(resetSearchDistance){
         this.searchDistance.reset();

@@ -23,7 +23,11 @@
               "type": "unique",
               "value": "Utica"
             },
-            "interactiveObj": "",
+            "interactiveObj": {
+              "prompt": "Insurance Company is",
+              "hint": "",
+              "cascade": "previous"
+            },
             "caseSensitive": false,
             "expr": "Insurance_Company = 'Utica'"
           },
@@ -40,14 +44,18 @@
               "type": "unique",
               "value": "Auto"
             },
-            "interactiveObj": "",
+            "interactiveObj": {
+              "prompt": "Policy type is",
+              "hint": "",
+              "cascade": "previous"
+            },
             "caseSensitive": false,
             "expr": "Policy_type = 'Auto'"
           }
         ],
         "expr": "(Insurance_Company = 'Utica') AND (Policy_type = 'Auto')"
       },
-      "showSQL": true,
+      "showSQL": false,
       "spatialFilter": {
         "currentMapExtent": {
           "default": true
@@ -121,7 +129,7 @@
     },
     {
       "url": "https://demographics7.arcgis.com/arcgis/rest/services/USA_Demographics_and_Boundaries_2017/MapServer/9",
-      "name": "Block Group",
+      "name": "ESRI Zip level",
       "icon": "",
       "filter": {
         "logicalOperator": "AND",
@@ -146,11 +154,13 @@
         ],
         "expr": "TOTPOP_CY > 0"
       },
-      "showSQL": true,
+      "showSQL": false,
       "spatialFilter": {
-        "currentMapExtent": null,
+        "currentMapExtent": {
+          "default": true
+        },
         "drawing": {
-          "default": true,
+          "default": false,
           "geometryTypes": [
             "POINT",
             "POLYLINE",
